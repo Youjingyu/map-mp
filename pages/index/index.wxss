@@ -1,0 +1,26 @@
+.search{
+  display: flex;
+  margin: 20rpx;
+}
+.search input{
+  flex: 4;
+  height: 100rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+  padding-left: 15rpx;
+}
+.search button{
+  flex: 1;
+  height: 100rpx;
+  margin-left: 10rpx;
+  background-color: #1AAD19;
+  color: #fff;
+  line-height: 100rpx;
+}
+.list{
+  margin: 40rpx 30rpx;
+}
+.list-item{
+  border-top: 1rpx solid #e5e5e5;
+  padding: 20rpx 0;
+}

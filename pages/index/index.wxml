@@ -1,0 +1,12 @@
+<view class="search">
+  <input placeholder="请输入地址" bindinput="searchInput"/>
+  <button type="default" bindtap="search">搜索</button>
+</view>
+<view class="list">
+  <view class="list-item" wx:for="{{data}}" wx:key="{{index}}"
+    bindtap="gotoMap"
+    data-latitude="{{item.lat}}" data-longitude="{{item.long}}" 
+  >
+    <text>{{item.name}}</text>
+  </view>
+</view> 
